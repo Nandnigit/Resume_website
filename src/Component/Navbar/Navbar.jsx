@@ -23,7 +23,7 @@ const Navbar = () => {
               <Link to="/" className="text-white hover:text-yellow-500 px-3 py-2 rounded-md text-lg font-semibold">Resume Score</Link>
               <Link to="/templates" className="text-white hover:text-yellow-500 px-3 py-2 rounded-md text-lg font-semibold">Templates</Link>
               <Link to="/about" className="text-white hover:text-yellow-500 px-3 py-2 rounded-md text-lg font-semibold">About Us</Link>
-              <Link to="/" className="text-white hover:text-yellow-500 px-3 py-2 rounded-md text-lg font-semibold">Contact Us</Link>
+              <Link to="/contact" className="text-white hover:text-yellow-500 px-3 py-2 rounded-md text-lg font-semibold">Contact Us</Link>
               <Link to="/" className="text-white px-2 py-2 text-lg font-semibold  rounded-xl " id='home_fourth'>Log in</Link>
               <Link to="/" className="text-white hover:text-yellow-500 px-2 py-2 text-lg font-semibold border-2 rounded-xl">Sign up</Link>
             </div>

@@ -8,6 +8,7 @@ import Slider from './Component/Home/Slider.jsx'
 import Slider_details from './Component/Home/Slider_details.jsx'
 import Resume_Guide from './Component/Home/Resume_Guide.jsx'
 import Aboutus from './Component/About-Us/Aboutus.jsx'
+import Contact from './Component/Contact-Us/Contact.jsx'
 const route =createBrowserRouter([
   {
     path:"/",
@@ -24,6 +25,10 @@ const route =createBrowserRouter([
       {
         path:"about",
         element:<Aboutus/>
+      },
+      {
+        path:"contact",
+        element:<Contact/>
       }
       // {
       //   path:"slide/:id",
