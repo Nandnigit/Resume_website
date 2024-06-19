@@ -1,11 +1,7 @@
 import React from 'react'
 import Home_Third from './Home_Third'
 import './Home.css'
-import image1 from '../Home/images/1.png'
-import image2 from '../Home/images/2.png'
-import image3 from '../Home/images/3.png'
-import image4 from '../Home/images/4.png'
-import image5 from '../Home/images/5.png'
+import {Link} from 'react-router-dom'
 
 function Home_Second() {
   return (
@@ -43,11 +39,14 @@ function Home_Second() {
                 <div className=' font-bold text-lg text-center'>Download</div>
             </div>
         </div>
+        <Link to='/login'>
         <div className=' flex justify-center mt-4'>
             <button className=' px-5 py-3 rounded-full text-lg text-white font-bold hover:px-8 hover:shadow-2xl hover:shadow-slate-500' id='home_third'>
                 Create my Resume
             </button>
         </div>
+        </Link>
+        
       </div>
 
       <Home_Third/>

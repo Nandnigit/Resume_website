@@ -40,15 +40,7 @@ const Footer = () => {
                         <li><a href="#" className="hover:text-orange-400">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div className="w-full md:w-auto mb-6 md:mb-0">
-                    <h2 className="text-lg font-bold text-white">Ai Resources</h2>
-                    <ul>
-                        <li><a href="#" className="hover:text-orange-400">Ai - Resume Accuracy</a></li>
-                        <li><a href="#" className="hover:text-orange-400">Ai - Resume Enhancer</a></li>
-                        <li><a href="#" className="hover:text-orange-400">Ai - Job Match & Apply</a></li>
-                        <li><a href="#" className="hover:text-orange-400">& Much More</a></li>
-                    </ul>
-                </div>
+                
                 </div>
             </div>
             

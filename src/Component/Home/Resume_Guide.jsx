@@ -5,19 +5,19 @@ function Course(props) {
   const course =[
     
     {
-        img:"https://cdn.create.microsoft.com/catalog-assets/en-us/d68df550-2dce-4601-ac59-22b431043ee8/thumbnails/616/social-media-marketing-resume-blue-modern-simple-1-1-ec5f2f560fde.webp",title:"Social Media Marketer Resume"
+        img:"https://marketplace.canva.com/EAFzfwx_Qik/3/0/283w/canva-GLS7iCH3mUA.jpg",title:"Social Media Marketer Resume",link:"https://www.canva.com/design/DAGIkOgXTzU/QOQd3TA7eaMaPPkNjs7BUA/edit?utm_content=DAGIkOgXTzU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     },
-    { img:"https://d25zcttzf44i59.cloudfront.net/academic-word-resume-template.png",title:"Academic Resume"},
-    { img:"https://d25zcttzf44i59.cloudfront.net/official-resume-template.png",title:"Freelance Writer Resume Examples and Guide"},
-    { img:"https://d.novoresume.com/images/doc/skill-based-resume-template.png",title:"Sales Associate Resume"},
-    { img:"https://cdn-images.resumelab.com/pages/free_templates_zety_us_professional_templates_5.jpg",title:"Investigator Resume"},
-    { img:"https://www.myperfectresume.com/wp-content/uploads/2024/03/resume-template-professional.svg",title:"Professional Resume"},
-    { img:"https://cdn-images.zety.com/pages/high_school_resume_templates_4.jpg",title:"Fresher Resume"},
-    { img:"https://piktochart.com/wp-content/uploads/2023/02/large-97-600x848.jpg",title:"Business Accountant Resume"},
-    { img:"https://cdn-images.zety.com/images/zety/landings/templates/general-resume-template@3x.jpg",title:"Business Analyst Resume"},
-    { img:"https://www.jobhero.com/resources/wp-content/uploads/2023/07/tutor-template-resume-JH.svg",title:"Senior Associate Resume"},
-    { img:"https://cdn-blog.novoresume.com/articles/resume-certifications/Certified-Medical-Assistant-Resume-Example.png",title:"Software Developer Resume"},
-    { img:"https://piktochart.com/wp-content/uploads/2023/02/large-9-600x848.jpg",title:"Interior Designer Resume"},
+    { img:"https://marketplace.canva.com/EAFcO7DTEHM/1/0/283w/canva-dL748wTwcRo.jpg",title:"Academic Resume",link:"https://www.canva.com/design/DAGIkO19_30/FjyRSrLMCluyN4gcSQjUTg/edit?utm_content=DAGIkO19_30&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"},
+    { img:"https://marketplace.canva.com/EAFk2sEzxO8/2/0/283w/canva-4PHLNC4jvNo.jpg",title:"Freelance Writer Resume Examples and Guide",link:"https://www.canva.com/design/DAGIkEFdHM0/8YNwTWYlmNU2WBJJZsbrew/edit?utm_content=DAGIkEFdHM0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"},
+    { img:"https://marketplace.canva.com/EAFjRZP7Qy4/1/0/283w/canva-w7vPJrquk6g.jpg",title:"Sales Associate Resume",link:"https://www.canva.com/design/DAGIkE_BJPU/1LiKGod85UG0lNrHv7_LCQ/edit?utm_content=DAGIkE_BJPU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"},
+    { img:"https://marketplace.canva.com/EAFhbMF-H2g/1/0/283w/canva-rIQl6eH1ZtM.jpg",title:"Investigator Resume",link:"https://www.canva.com/design/DAGIkGwP-qM/S2OsIpcjD7e7lRcQowS-Fw/edit?utm_content=DAGIkGwP-qM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"},
+    { img:"https://marketplace.canva.com/EAFcTxn1AOk/2/0/283w/canva-W1EI9m4odoU.jpg",title:"Professional Resume",link:"https://www.canva.com/design/DAGIkFZVYyQ/tJOBZ4wZ-Tw-mw_42kYCSA/edit?utm_content=DAGIkFZVYyQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"},
+    { img:"https://marketplace.canva.com/EAFjRZP7Qy4/1/0/283w/canva-w7vPJrquk6g.jpg",title:"Fresher Resume",link:"https://www.canva.com/design/DAGIkG569mc/m1C-rJT7l2UDuYwCntVCdw/edit?utm_content=DAGIkG569mc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"},
+    { img:"https://marketplace.canva.com/EAFk2sEzxO8/2/0/283w/canva-4PHLNC4jvNo.jpg",title:"Business Accountant Resume",link:"https://www.canva.com/design/DAGIkMwka5U/37xKGTnSTrADb8NkyFba_Q/edit?utm_content=DAGIkMwka5U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"},
+    { img:"https://marketplace.canva.com/EAFlgmxCh-M/1/0/283w/canva-rXm34r9dBm4.jpg",title:"Business Analyst Resume",link:"https://www.canva.com/design/DAGIkJz9ZEg/McsSevQrNgny3_VnKMAKCw/edit?utm_content=DAGIkJz9ZEg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"},
+    { img:"https://marketplace.canva.com/EAFoxAIruaI/1/0/283w/canva-cACejiRadXQ.jpg",title:"Senior Associate Resume",link:"https://www.canva.com/design/DAGIkHgxYRA/VjWOYO39GaMAhd39XR-8Uw/edit?utm_content=DAGIkHgxYRA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"},
+    { img:"https://marketplace.canva.com/EAFfUETqcL8/2/0/1131w/canva-4r6P24uiwQc.jpg",title:"Software Developer Resume",link:"https://www.canva.com/design/DAGIkFailEw/wSPJg1PptYll97aBcoLApw/edit?utm_content=DAGIkFailEw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"},
+    { img:"https://marketplace.canva.com/EAFyPm_279E/1/0/283w/canva-a82Uh6SU69w.jpg",title:"Interior Designer Resume",link:"https://www.canva.com/design/DAGIkF0w2uA/XhC8PnMMWD2LxgVbUcFqGg/edit?utm_content=DAGIkF0w2uA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"},
     
     
   ];

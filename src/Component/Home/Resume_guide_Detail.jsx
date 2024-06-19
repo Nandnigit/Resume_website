@@ -1,6 +1,7 @@
 import React from "react";
 import './Job.css'
 import '../Home/Home.css'
+import {Link} from 'react-router-dom'
 
 const CourseDetail = ({ course }) => {
   return (
@@ -13,17 +14,16 @@ const CourseDetail = ({ course }) => {
         {course.map((card, index) => (
           <div key={index}>
             
-            
-<div className="flex flex-col justify-center h-[400px] border-2 px-2 py-2 rounded-xl border-white shadow-md shadow-slate-400 card-container" >
-  <img src={card.img} className="h-auto card-image rounded-md" alt="Course" />
+            <Link to={card.link} target='_blank'>
+            <div className="flex flex-col justify-center h-[400px] border-2 px-2 py-2 rounded-xl border-white shadow-md shadow-slate-400 card-container" >
+  <img src={card.img} className=" w-auto h-full card-image rounded-md" alt="Course" />
   <h1 className="text-xl font-bold " id='jobcard'>{card.title}</h1>
-  {/* <div className="flex gap-1 items-center">
-    <img src={card.icon} alt="Icon" className=" rounded-full h-9 w-9" />
-    <p id='jobcard' >{card.name}</p>
-  </div> */}
+  
   
   
 </div>
+            </Link>
+
 
 
           </div>
